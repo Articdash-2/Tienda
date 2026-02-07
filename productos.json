@@ -1,0 +1,868 @@
+[
+    {
+        "id": "ACCE-001",
+        "nombre": "colas",
+        "precio": 25,
+        "categoria": "accesorios",
+        "img": "./img/todo/colas_2.jpeg"
+    },
+    {
+        "id": "ACCE-002",
+        "nombre": "colas",
+        "precio": 25,
+        "categoria": "accesorios",
+        "img": "./img/todo/colas_3.jpeg"
+    },
+    {
+        "id": "ACCE-003",
+        "nombre": "colas",
+        "precio": 35,
+        "categoria": "accesorios",
+        "img": "./img/todo/colas.jpeg"
+    },
+    {
+        "id": "ACCE-004",
+        "nombre": "gancho para cabello",
+        "precio": 45,
+        "categoria": "ACCESORIOS",
+        "img": "./img/todo/gancho_cabello.jpeg",
+        "description": ""
+    },
+    {
+        "id": "ACCE-005",
+        "nombre": "gancho y ules",
+        "precio": 30,
+        "categoria": "accesorios",
+        "img": "./img/todo/ganchos _ules.jpeg"
+    },
+    {
+        "id": "ACCE-006",
+        "nombre": "ganchos",
+        "precio": 220,
+        "categoria": "accesorios",
+        "img": "./img/todo/ganchos_4.jpeg"
+    },
+    {
+        "id": "ACCE-007",
+        "nombre": "ganchos",
+        "precio": 10,
+        "categoria": "accesorios",
+        "img": "./img/todo/ganchos_5.jpeg"
+    },
+    {
+        "id": "ACCE-008",
+        "nombre": "ules",
+        "precio": 10,
+        "categoria": "accesorios",
+        "img": "./img/todo/ules.jpeg"
+    },
+    {
+        "id": "CALZ-001",
+        "nombre": "crocs",
+        "precio": 750,
+        "categoria": "calzado",
+        "img": "./img/todo/crocs.jpeg"
+    },
+    {
+        "id": "CALZ-002",
+        "nombre": "crocs estilos",
+        "precio": 750,
+        "categoria": "calzado",
+        "img": "./img/todo/crocs_estilos.jpeg"
+    },
+    {
+        "id": "CALZ-003",
+        "nombre": "crocs juvenil",
+        "precio": 750,
+        "categoria": "calzado",
+        "img": "./img/todo/crocs_juvenil.jpeg"
+    },
+    {
+        "id": "CALZ-004",
+        "nombre": "crocs mujer",
+        "precio": 750,
+        "categoria": "calzado",
+        "img": "./img/todo/crocs_mujer.jpeg"
+    },
+    {
+        "id": "CALZ-005",
+        "nombre": "crocs unisec",
+        "precio": 750,
+        "categoria": "calzado",
+        "img": "./img/todo/crocs_unisec.jpeg"
+    },
+    {
+        "id": "CALZ-006",
+        "nombre": "sandalias",
+        "precio": 130,
+        "categoria": "calzado",
+        "img": "./img/todo/sandalias.jpeg"
+    },
+    {
+        "id": "CALZ-007",
+        "nombre": "sandalias",
+        "precio": 60,
+        "categoria": "CALZADO",
+        "img": "./img/todo/sandalias_1.jpeg",
+        "description": "sandalias para niñia de segunda talla 8"
+    },
+    {
+        "id": "CALZ-008",
+        "nombre": "sandalias de niña",
+        "precio": 180,
+        "categoria": "calzado",
+        "img": "./img/todo/sandalias_de_niña.jpeg"
+    },
+    {
+        "id": "COCI-001",
+        "nombre": "baldes para maiz",
+        "precio": 60,
+        "categoria": "COCINA",
+        "img": "./img/todo/balde_para_maiz.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-002",
+        "nombre": "basos",
+        "precio": 20,
+        "categoria": "COCINA",
+        "img": "./img/todo/basos.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-003",
+        "nombre": "bote de agua",
+        "precio": 150,
+        "categoria": "cocina",
+        "img": "./img/todo/botes_de_agua.jpeg"
+    },
+    {
+        "id": "COCI-004",
+        "nombre": "botes de agua estilos",
+        "precio": 150,
+        "categoria": "cocina",
+        "img": "./img/todo/botes_de_agua estilo.jpeg"
+    },
+    {
+        "id": "COCI-005",
+        "nombre": "botes para salsas",
+        "precio": 25,
+        "categoria": "COCINA",
+        "img": "./img/todo/botes_para_salsas.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-006",
+        "nombre": "botes y baso unisec",
+        "precio": 25,
+        "categoria": "cocina",
+        "img": "./img/todo/botes_y _basos _unisec.jpeg"
+    },
+    {
+        "id": "COCI-007",
+        "nombre": "canasta de tortillas",
+        "precio": 70,
+        "categoria": "cocina",
+        "img": "./img/todo/canasta_de_ tortillas.jpeg"
+    },
+    {
+        "id": "COCI-008",
+        "nombre": "canasta multi uso",
+        "precio": 50,
+        "categoria": "COCINA",
+        "img": "./img/todo/canasta_multi_uso.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-009",
+        "nombre": "canasta para tortilla",
+        "precio": 60,
+        "categoria": "COCINA",
+        "img": "./img/todo/canasta_para_tortilla.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-010",
+        "nombre": "cucharas y trinches",
+        "precio": 110,
+        "categoria": "COCINA",
+        "img": "./img/todo/cucharas_y__trinches.jpeg",
+        "description": "trae 10 unidades"
+    },
+    {
+        "id": "COCI-011",
+        "nombre": "PAILA  DE COMIDA",
+        "precio": 150,
+        "categoria": "COCINA",
+        "img": "./img/todo/paila__de_comida.jpeg",
+        "description": "biene dentro 2 mas con diferentes tamaños"
+    },
+    {
+        "id": "COCI-012",
+        "nombre": "paila para tortilla",
+        "precio": 60,
+        "categoria": "cocina",
+        "img": "./img/todo/paila_para_tortilla.jpeg"
+    },
+    {
+        "id": "COCI-013",
+        "nombre": "pailas comederas",
+        "precio": 25,
+        "categoria": "COCINA",
+        "img": "./img/todo/pailas_comederas.jpeg",
+        "description": ""
+    },
+    {
+        "id": "COCI-014",
+        "nombre": "pailas de comida",
+        "precio": 170,
+        "categoria": "cocina",
+        "img": "./img/todo/pailas_de_comida.jpeg"
+    },
+    {
+        "id": "COCI-015",
+        "nombre": "pascones",
+        "precio": 45,
+        "categoria": "cocina",
+        "img": "./img/todo/pascones.jpeg"
+    },
+    {
+        "id": "COCI-016",
+        "nombre": "platos",
+        "precio": 40,
+        "categoria": "cocina",
+        "img": "./img/todo/platos.jpeg"
+    },
+    {
+        "id": "COCI-017",
+        "nombre": "tabla de picar",
+        "precio": 120,
+        "categoria": "cocina",
+        "img": "./img/todo/tabla_de_picar.jpeg"
+    },
+    {
+        "id": "COCI-018",
+        "nombre": "tasa",
+        "precio": 25,
+        "categoria": "cocina",
+        "img": "./img/todo/tasas_para_cafe.jpeg"
+    },
+    {
+        "id": "COCI-019",
+        "nombre": "tasas",
+        "precio": 25,
+        "categoria": "cocina",
+        "img": "./img/todo/tasas_2.jpeg"
+    },
+    {
+        "id": "COCI-020",
+        "nombre": "tasas para cafe",
+        "precio": 25,
+        "categoria": "cocina",
+        "img": "./img/todo/tasas.jpeg"
+    },
+    {
+        "id": "CUID-001",
+        "nombre": "crema",
+        "precio": 270,
+        "categoria": "CUIDADO DEL CUERPO",
+        "img": "./img/todo/crema.jpeg",
+        "description": "crema para su cuerpo"
+    },
+    {
+        "id": "CUID-002",
+        "nombre": "tratamiento",
+        "precio": 200,
+        "categoria": "CUIDADO DEL CUERPO",
+        "img": "./img/todo/tratamiento.jpeg",
+        "description": "tratamiento para su cabello"
+    },
+    {
+        "id": "GENE-001",
+        "nombre": "chamarra jeans",
+        "precio": 90,
+        "categoria": "GENERAL",
+        "img": "./img/todo/chamarra_1.jpeg",
+        "description": "chamarra jeans de segunda color negro"
+    },
+    {
+        "id": "HOGA-001",
+        "nombre": "baldes",
+        "precio": 80,
+        "categoria": "hogar",
+        "img": "./img/todo/valdes.jpeg"
+    },
+    {
+        "id": "HOGA-002",
+        "nombre": "BALDES MEDIANO",
+        "precio": 100,
+        "categoria": "HOGAR",
+        "img": "./img/todo/baldes_mediano.jpeg",
+        "description": "orden de izquierda a derecha 100, 80, 90"
+    },
+    {
+        "id": "HOGA-003",
+        "nombre": "BALDES MEDIANO  CON AGARRADERO",
+        "precio": 140,
+        "categoria": "HOGAR",
+        "img": "./img/todo/baldes_mediano__con_agarradero.jpeg",
+        "description": ""
+    },
+    {
+        "id": "HOGA-004",
+        "nombre": "basureros",
+        "precio": 150,
+        "categoria": "hogar",
+        "img": "./img/todo/basureros_estilo.jpeg",
+        "descripcion": "150 el de la izquierda y 220 el de la derecha"
+    },
+    {
+        "id": "HOGA-005",
+        "nombre": "basureros",
+        "precio": 600,
+        "categoria": "hogar",
+        "img": "./img/todo/basurero.jpeg"
+    },
+    {
+        "id": "HOGA-006",
+        "nombre": "BASUREROS",
+        "precio": 140,
+        "categoria": "HOGAR",
+        "img": "./img/todo/basureros.jpeg",
+        "description": "el de derecha 140 y el de la izquierda 250"
+    },
+    {
+        "id": "HOGA-007",
+        "nombre": "Bolso",
+        "precio": 50,
+        "categoria": "HOGAR",
+        "img": "./img/todo/bolso.jpeg",
+        "description": "bolso de segunda"
+    },
+    {
+        "id": "HOGA-008",
+        "nombre": "cama de niña",
+        "precio": 2500,
+        "categoria": "hogar",
+        "img": "./img/todo/cama_de_niña.jpeg"
+    },
+    {
+        "id": "HOGA-009",
+        "nombre": "canasta de ropa",
+        "precio": 220,
+        "categoria": "hogar",
+        "img": "./img/todo/canasta_de_ropa.jpeg"
+    },
+    {
+        "id": "HOGA-010",
+        "nombre": "canasta para ropa",
+        "precio": 130,
+        "categoria": "hogar",
+        "img": "./img/todo/canasta_para_ropa.jpeg"
+    },
+    {
+        "id": "HOGA-011",
+        "nombre": "cubetas",
+        "precio": 120,
+        "categoria": "hogar",
+        "img": "./img/todo/cubetas.jpeg"
+    },
+    {
+        "id": "HOGA-012",
+        "nombre": "ganchos",
+        "precio": 60,
+        "categoria": "HOGAR",
+        "img": "./img/todo/ganchos.jpeg",
+        "description": "10 unidades"
+    },
+    {
+        "id": "HOGA-013",
+        "nombre": "ganchos",
+        "precio": 75,
+        "categoria": "HOGAR",
+        "img": "./img/todo/ganchos_1.jpeg",
+        "description": "paquete de ganchos de 10 unidades"
+    },
+    {
+        "id": "HOGA-014",
+        "nombre": "llaveros",
+        "precio": 45,
+        "categoria": "hogar",
+        "img": "./img/todo/llaveros.jpeg"
+    },
+    {
+        "id": "HOGA-015",
+        "nombre": "macetera",
+        "precio": 120,
+        "categoria": "hogar",
+        "img": "./img/todo/macetera.jpeg"
+    },
+    {
+        "id": "HOGA-016",
+        "nombre": "mosquiteros",
+        "precio": 230,
+        "categoria": "hogar",
+        "img": "./img/todo/mosquiteros.jpeg"
+    },
+    {
+        "id": "HOGA-017",
+        "nombre": "organizadores pequeños",
+        "precio": 170,
+        "categoria": "hogar",
+        "img": "./img/todo/organizadores_ pequeños.jpeg"
+    },
+    {
+        "id": "HOGA-018",
+        "nombre": "paila",
+        "precio": 18,
+        "categoria": "hogar",
+        "img": "./img/todo/pailas_manos.jpeg"
+    },
+    {
+        "id": "HOGA-019",
+        "nombre": "PAILAS",
+        "precio": 350,
+        "categoria": "HOGAR",
+        "img": "./img/todo/pailas.jpeg",
+        "description": "marca mega"
+    },
+    {
+        "id": "HOGA-020",
+        "nombre": "pailas para manos",
+        "precio": 25,
+        "categoria": "HOGAR",
+        "img": "./img/todo/pailas_para_lavarse_las_manos.jpeg",
+        "description": ""
+    },
+    {
+        "id": "HOGA-021",
+        "nombre": "recogedor de basura",
+        "precio": 120,
+        "categoria": "hogar",
+        "img": "./img/todo/recogedor_de_ basura.jpeg"
+    },
+    {
+        "id": "HOGA-022",
+        "nombre": "valdes",
+        "precio": 80,
+        "categoria": "hogar",
+        "img": "./img/todo/valdes.jpeg"
+    },
+    {
+        "id": "MUEB-001",
+        "nombre": "mesa unisec",
+        "precio": 300,
+        "categoria": "muebles",
+        "img": "./img/todo/mesa_unisec.jpeg"
+    },
+    {
+        "id": "MUEB-002",
+        "nombre": "silla abc de niña o niño",
+        "precio": 170,
+        "categoria": "muebles",
+        "img": "./img/todo/silla_ABC_de_niña_ o_niño.jpeg"
+    },
+    {
+        "id": "MUEB-003",
+        "nombre": "silla peresosa",
+        "precio": 650,
+        "categoria": "muebles",
+        "img": "./img/todo/silla _peresosa.jpeg"
+    },
+    {
+        "id": "MUEB-004",
+        "nombre": "silla plastimas",
+        "precio": 190,
+        "categoria": "muebles",
+        "img": "./img/todo/silla_plastimas.jpeg"
+    },
+    {
+        "id": "MUEB-005",
+        "nombre": "silla unisec",
+        "precio": 170,
+        "categoria": "muebles",
+        "img": "./img/todo/silla_unisec.jpeg"
+    },
+    {
+        "id": "ROPA-001",
+        "nombre": "botas",
+        "precio": 150,
+        "categoria": "CALZADO",
+        "img": "./img/todo/botas_1.jpeg",
+        "description": "lindas botas rosadas para su princesa son de segunda para casi un año y medio"
+    },
+    {
+        "id": "ROPA-002",
+        "nombre": "botas para su princesa",
+        "precio": 130,
+        "categoria": "CALZADO",
+        "img": "./img/todo/botas.jpeg",
+        "description": "bonitas botas para su princesa x lo menos de un año y medio"
+    },
+    {
+        "id": "ROPA-003",
+        "nombre": "boxer",
+        "precio": 30,
+        "categoria": "ropa",
+        "img": "./img/todo/boxeres_2.jpeg"
+    },
+    {
+        "id": "ROPA-004",
+        "nombre": "BOXER ",
+        "precio": 30,
+        "categoria": "ROPA",
+        "img": "./img/todo/boxer_1.jpeg",
+        "description": "o 3 x 100"
+    },
+    {
+        "id": "ROPA-005",
+        "nombre": "boxer de niño",
+        "precio": 30,
+        "categoria": "ROPA",
+        "img": "./img/todo/boxer_de_niño.jpeg",
+        "description": "3 x 100"
+    },
+    {
+        "id": "ROPA-006",
+        "nombre": "boxeres",
+        "precio": 30,
+        "categoria": "ropa",
+        "img": "./img/todo/boxeres.jpeg"
+    },
+    {
+        "id": "ROPA-007",
+        "nombre": "buso",
+        "precio": 25,
+        "categoria": "ROPA",
+        "img": "./img/todo/buso.jpeg",
+        "description": "para hacer ejercicio"
+    },
+    {
+        "id": "ROPA-008",
+        "nombre": "camisa de hombre",
+        "precio": 40,
+        "categoria": "ROPA",
+        "img": "./img/todo/camisa_de_hombre.jpeg",
+        "description": "talla L es de segunda"
+    },
+    {
+        "id": "ROPA-009",
+        "nombre": "camisa de hombre",
+        "precio": 30,
+        "categoria": "ROPA",
+        "img": "./img/todo/camisa.jpeg",
+        "description": "talla m de segunda"
+    },
+    {
+        "id": "ROPA-010",
+        "nombre": "chamarra",
+        "precio": 85,
+        "categoria": "ROPA",
+        "img": "./img/todo/chamarra.jpeg",
+        "description": "chamarra jeans de segunda "
+    },
+    {
+        "id": "ROPA-011",
+        "nombre": "chancletas ",
+        "precio": 130,
+        "categoria": "ROPA",
+        "img": "./img/todo/chancletas.jpeg",
+        "description": "talla 20-21 de segunda "
+    },
+    {
+        "id": "ROPA-012",
+        "nombre": "cross de niña",
+        "precio": 150,
+        "categoria": "ROPA",
+        "img": "./img/todo/cross.jpeg",
+        "description": "lindas cross para su princesa talla 7 de segunda"
+    },
+    {
+        "id": "ROPA-013",
+        "nombre": "gorro de niño",
+        "precio": 75,
+        "categoria": "ROPA",
+        "img": "./img/todo/gorro.jpeg",
+        "description": "para su campeon de segunda"
+    },
+    {
+        "id": "ROPA-014",
+        "nombre": "gorros para su princesa",
+        "precio": 55,
+        "categoria": "ROPA",
+        "img": "./img/todo/gorros.jpeg",
+        "description": "gorritos para su princesa, son de segunda"
+    },
+    {
+        "id": "ROPA-015",
+        "nombre": "leggings",
+        "precio": 30,
+        "categoria": "ROPA",
+        "img": "./img/todo/leggings.jpeg",
+        "description": "leggings para niña tiene un detalle es de segunda"
+    },
+    {
+        "id": "ROPA-016",
+        "nombre": "licra",
+        "precio": 50,
+        "categoria": "ROPA",
+        "img": "./img/todo/licra.jpeg",
+        "description": "talla unica es de segunda"
+    },
+    {
+        "id": "ROPA-017",
+        "nombre": "mamelucos",
+        "precio": 10,
+        "categoria": "ropa",
+        "img": "./img/todo/mamelucos.jpeg"
+    },
+    {
+        "id": "ROPA-018",
+        "nombre": "medias para niña",
+        "precio": 30,
+        "categoria": "ROPA",
+        "img": "./img/todo/medias.jpeg",
+        "description": "para niña de unos 10 años de segunda"
+    },
+    {
+        "id": "ROPA-019",
+        "nombre": "pantalon",
+        "precio": 200,
+        "categoria": "ROPA",
+        "img": "./img/todo/pantalon.jpeg",
+        "description": "nuevo"
+    },
+    {
+        "id": "ROPA-020",
+        "nombre": "pantalones mujer de segunda mano",
+        "precio": 150,
+        "categoria": "ropa",
+        "img": "./img/todo/pantalon_de_ mujer.jpeg"
+    },
+    {
+        "id": "ROPA-021",
+        "nombre": "pijama para niña",
+        "precio": 60,
+        "categoria": "ROPA",
+        "img": "./img/todo/pijama_para_niña.jpeg",
+        "description": "pijama para niña de un año es de segunda"
+    },
+    {
+        "id": "ROPA-022",
+        "nombre": "sueter",
+        "precio": 35,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter.jpeg",
+        "description": "sueter para su bebe de segunda"
+    },
+    {
+        "id": "ROPA-023",
+        "nombre": "sueter",
+        "precio": 35,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter_1.jpeg",
+        "description": "sueter para su bebe de segunda"
+    },
+    {
+        "id": "ROPA-024",
+        "nombre": "sueter",
+        "precio": 15,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter_2.jpeg",
+        "description": "es de segunda"
+    },
+    {
+        "id": "ROPA-025",
+        "nombre": "sueter",
+        "precio": 25,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter_3.jpeg",
+        "description": "para su princesa de segunda por que tiene un detalle"
+    },
+    {
+        "id": "ROPA-026",
+        "nombre": "sueter de niña",
+        "precio": 35,
+        "categoria": "ropa",
+        "img": "./img/todo/sueter_de_niña.jpeg"
+    },
+    {
+        "id": "ROPA-027",
+        "nombre": "sueter de niña",
+        "precio": 10,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter_de_niña_1.jpeg",
+        "description": ""
+    },
+    {
+        "id": "ROPA-028",
+        "nombre": "sueter de niña",
+        "precio": 20,
+        "categoria": "ROPA",
+        "img": "./img/todo/sueter_de_niña_2.jpeg",
+        "description": ""
+    },
+    {
+        "id": "ROPA-029",
+        "nombre": "tragesito nuevo",
+        "precio": 130,
+        "categoria": "ROPA",
+        "img": "./img/todo/traje.jpeg",
+        "description": "trajesito nuevo, solo quiere lavado para su bebe"
+    },
+    {
+        "id": "ROPA-030",
+        "nombre": "traje completo",
+        "precio": 120,
+        "categoria": "ROPA",
+        "img": "./img/todo/traje_1.jpeg",
+        "description": "traje nuevo de niño"
+    },
+    {
+        "id": "ROPA-031",
+        "nombre": "traje para niña blusa y pantalon",
+        "precio": 80,
+        "categoria": "ropa",
+        "img": "./img/todo/pantalon_y_camisa.jpeg"
+    },
+    {
+        "id": "ROPA-032",
+        "nombre": "vesstido",
+        "precio": 100,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_7.jpeg",
+        "description": "talla xl de segunda con un estampado muy bonito manga larga"
+    },
+    {
+        "id": "ROPA-033",
+        "nombre": "vestido",
+        "precio": 90,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_manga_corta.jpeg",
+        "description": "talla xl de segunda"
+    },
+    {
+        "id": "ROPA-034",
+        "nombre": "vestido",
+        "precio": 90,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_escotado.jpeg",
+        "description": "talla p/s es de segunda"
+    },
+    {
+        "id": "ROPA-035",
+        "nombre": "vestido",
+        "precio": 70,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_1.jpeg",
+        "description": "de segunda de 2 colores blanco y color negro talla 16"
+    },
+    {
+        "id": "ROPA-036",
+        "nombre": "vestido",
+        "precio": 50,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_2.jpeg",
+        "description": "de segunda talla s es de 2 coloress"
+    },
+    {
+        "id": "ROPA-037",
+        "nombre": "vestido",
+        "precio": 60,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_3.jpeg",
+        "description": "vestido estampado talla 10"
+    },
+    {
+        "id": "ROPA-038",
+        "nombre": "vestido",
+        "precio": 70,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_4.jpeg",
+        "description": "talla xl de segunda"
+    },
+    {
+        "id": "ROPA-039",
+        "nombre": "vestido",
+        "precio": 55,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_5.jpeg",
+        "description": "vestido de segunda mana asta codo y estira"
+    },
+    {
+        "id": "ROPA-040",
+        "nombre": "vestido",
+        "precio": 50,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_6.jpeg",
+        "description": "talla l de segunda"
+    },
+    {
+        "id": "ROPA-041",
+        "nombre": "vestido",
+        "precio": 100,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_8.jpeg",
+        "description": "vestido con forro con manga larga asta la rodilla es de segunda"
+    },
+    {
+        "id": "ROPA-042",
+        "nombre": "vestido",
+        "precio": 70,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_9.jpeg",
+        "description": "vestido largo talla 10 estira"
+    },
+    {
+        "id": "ROPA-043",
+        "nombre": "vestido",
+        "precio": 70,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_10.jpeg",
+        "description": "talla m de segunda"
+    },
+    {
+        "id": "ROPA-044",
+        "nombre": "VESTIDO",
+        "precio": 200,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido.jpeg",
+        "description": "de segunda"
+    },
+    {
+        "id": "ROPA-045",
+        "nombre": "vestido de niña",
+        "precio": 70,
+        "categoria": "ropa",
+        "img": "./img/todo/vestido_de_niña.jpeg"
+    },
+    {
+        "id": "ROPA-046",
+        "nombre": "vestido para niña",
+        "precio": 70,
+        "categoria": "ROPA",
+        "img": "./img/todo/vestido_para_niña.jpeg",
+        "description": "vestido para niña de segunda"
+    },
+    {
+        "id": "ROPA-047",
+        "nombre": "vestido y zapato",
+        "precio": 120,
+        "categoria": "ropa",
+        "img": "./img/todo/vestidos_ y_zapatos.jpeg"
+    },
+    {
+        "id": "VARI-001",
+        "nombre": "lociones bolsillo",
+        "precio": 100,
+        "categoria": "varios",
+        "img": "./img/todo/lociones.jpeg"
+    },
+    {
+        "id": "VARI-002",
+        "nombre": "tualla ´para bebe",
+        "precio": 15,
+        "categoria": "varios",
+        "img": "./img/todo/tualla_bebe.jpeg"
+    }
+]

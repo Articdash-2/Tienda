@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🙏</text></svg>"
+    />
+    <title>FIEL ES DIOS - Catálogo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="preloader">
+      <img src="./assets/logo.jpeg" alt="Logo" class="preloader-logo" />
+      <h2 style="color: var(--blue); margin-top: 15px">BIENVENIDO</h2>
+    </div>
+
+    <div id="cart-icon" onclick="toggleSidebar()">
+      🛒 <span id="badge-count">0</span>
+    </div>
+
+    <div id="sidebar">
+      <h3>
+        Tu Selección
+        <span onclick="toggleSidebar()" style="float: right; cursor: pointer"
+          >✕</span
+        >
+      </h3>
+      <div id="datos-cliente">
+        <input
+          type="text"
+          id="cliente-nombre"
+          class="input-cliente"
+          placeholder="Escribe tu Nombre"
+        />
+        <textarea
+          id="cliente-direccion"
+          class="input-cliente"
+          rows="2"
+          placeholder="Dirección de Envío"
+        ></textarea>
+      </div>
+      <div id="lista-resumen"></div>
+      <button onclick="enviarPedido()" class="btn-enviar">
+        GENERAR FACTURA Y ENVIAR 🚀
+      </button>
+    </div>
+
+    <div class="hero-wrapper">
+      <div class="hero-bg-img"></div>
+      <div class="hero-overlay"></div>
+      <header>
+        <div id="titulo-escrito"></div>
+        <input
+          type="text"
+          id="buscador"
+          placeholder="🔍 ¿Qué buscas hoy?..."
+          onkeyup="filtrar()"
+        />
+      </header>
+    </div>
+
+    <div id="categorias-nav">
+      <button onclick="filtrarCategoria('todo')" class="btn-cat">todo</button>
+      <button onclick="filtrarCategoria('ropa')" class="btn-cat">ropa</button>
+      <button onclick="filtrarCategoria('calzado')" class="btn-cat">
+        calzado
+      </button>
+      <button onclick="filtrarCategoria('muebles')" class="btn-cat">
+        muebles
+      </button>
+      <button onclick="filtrarCategoria('cuidado del cuerpo')" class="btn-cat">
+        cuidado del cuerpo
+      </button>
+      <button onclick="filtrarCategoria('hogar')" class="btn-cat">hogar</button>
+    </div>
+
+    <main class="grid" id="catalogo"></main>
+
+    <footer>
+      <div class="credits-artic">
+        <span class="shine-text">Desarrollado por ArticDash-2</span>
+        <span class="emoji-color">💎🚀</span>
+      </div>
+    </footer>
+    <div id="product-modal" class="modal">
+      <span class="close-modal">&times;</span>
+      <div class="modal-content">
+        <img id="modal-img" src="" alt="Producto Grande" />
+        <div class="modal-info">
+          <h2 id="modal-titulo"></h2>
+          <p id="modal-precio"></p>
+          <p id="modal-desc" class="prod-desc"></p>
+          <button id="modal-add-btn" class="btn-add">
+            Añadir al Carrito 🛒
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

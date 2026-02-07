@@ -1,0 +1,20 @@
+# Python basura
+
+**pycache**/
+_.py[cod]
+_$py.class
+
+# Sistema
+
+.DS_Store
+Thumbs.db
+
+# Editores
+
+.vscode/
+.idea/
+
+# Entornos
+
+venv/
+env/

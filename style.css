@@ -1,0 +1,441 @@
+/* --- VARIABLES Y BASE --- */
+:root {
+  --bg: #0e1117;
+  --card: #1c2128;
+  --accent: #28a745;
+  --text: #ffffff;
+  --blue: #00d4ff;
+  --gray: #30363d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* --- CLASES DE UTILIDAD --- */
+
+/* Efecto Brillo (Shine) Principal */
+.shine-text {
+  background: linear-gradient(90deg, #00d4ff, #00ff88, #ff00ff, #00d4ff);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine-anim 4s linear infinite;
+}
+
+/* Variante más suave para la descripción (Estilo Créditos) */
+.prod-desc.shine-text {
+  background: linear-gradient(90deg, #a1c4fd, #c2e9fb, #a1c4fd);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine-anim 6s linear infinite;
+}
+
+/* Ajuste específico para el texto dentro del Modal */
+#modal-desc .shine-text {
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 10px;
+}
+
+.emoji-fix {
+  -webkit-text-fill-color: initial;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+  color: initial;
+}
+
+@keyframes shine-anim {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* --- COMPONENTES --- */
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.6s ease;
+}
+
+.preloader-logo {
+  width: 150px;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Hero & Header */
+.hero-wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  background: url("./assets/baner.jpeg") no-repeat center center/cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), var(--bg));
+  z-index: 2;
+}
+
+header {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+#titulo-escrito {
+  font-size: clamp(1.5rem, 8vw, 3.5rem);
+  font-weight: 800;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cursor {
+  color: var(--blue);
+  animation: blink 0.8s infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Buscador y Categorías */
+#buscador {
+  width: 85%;
+  max-width: 450px;
+  padding: 15px;
+  border-radius: 50px;
+  border: 2px solid var(--blue);
+  background: rgba(13, 17, 23, 0.8);
+  color: white;
+  margin-top: 20px;
+  outline: none;
+}
+
+#categorias-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.btn-cat {
+  background: var(--card);
+  color: white;
+  border: 1px solid var(--blue);
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-cat:hover {
+  background: var(--blue);
+  color: black;
+}
+
+/* Grid de Productos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  z-index: 5;
+  position: relative;
+}
+
+/* --- Tarjeta de Producto --- */
+.producto {
+  background: var(--card);
+  border-radius: 15px;
+  padding: 12px;
+  border: 1px solid var(--gray);
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.producto:hover {
+  transform: translateY(-8px);
+  border-color: var(--blue);
+  box-shadow: 0 10px 25px rgba(0, 212, 255, 0.15);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: #0d1117;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.producto:hover img {
+  transform: scale(1.1);
+}
+
+.prod-desc {
+  font-size: 0.82rem;
+  min-height: 40px;
+  margin: 8px 0;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.tag-cat {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 5px 0;
+}
+
+/* Carrito & Sidebar */
+#cart-icon {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: var(--accent);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#badge-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+#sidebar {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  background: #161b22;
+  z-index: 3000;
+  transition: 0.4s;
+  padding: 25px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  border-left: 1px solid var(--gray);
+}
+
+#sidebar.open {
+  right: 0;
+}
+
+.input-cliente {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+  background: #0d1117;
+  color: white;
+  box-sizing: border-box;
+}
+
+.btn-enviar {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 18px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn-add {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 10px rgba(40, 167, 69, 0.4);
+}
+
+/* Footer & Créditos */
+.credits-artic {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* --- MODAL OPTIMIZADO PARA RESPONSIVE --- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  overflow-y: auto; /* Permite scroll general en pantallas pequeñas */
+  padding: 20px 0;
+}
+
+.modal-content {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 450px;
+  width: 90%;
+  border: 1px solid var(--blue);
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+  position: relative;
+}
+
+#modal-img {
+  width: 100%;
+  max-height: 250px; /* Evita que la imagen empuje el botón fuera */
+  object-fit: contain;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.modal-info {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+#modal-titulo {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+#modal-desc {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  max-height: 120px; /* Scroll interno para descripciones largas */
+  overflow-y: auto;
+  padding: 0 5px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 5001;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .hero-wrapper {
+    min-height: 60vh;
+  }
+  .hero-bg-img {
+    position: relative;
+    height: 50vh;
+  }
+  #titulo-escrito {
+    font-size: 1.4rem;
+    min-height: 60px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+
+  /* Ajuste de Modal para móvil */
+  .modal-content {
+    margin-top: 50px;
+    padding: 15px;
+  }
+  #modal-img {
+    max-height: 200px; /* Imagen más pequeña para dejar espacio al botón */
+  }
+  #modal-titulo {
+    font-size: 1.2rem;
+  }
+}
