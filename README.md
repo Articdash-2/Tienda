@@ -1,25 +1,26 @@
-# 🙏 FIEL ES DIOS - Catálogo Digital
+# 🙏 FIEL ES DIOS - Catálogo de Variedades
 
-Sistema de ventas dinámico desarrollado para la tienda **FIEL ES DIOS**. Permite a los clientes seleccionar productos, generar una orden y enviarla por WhatsApp.
+![Banner Fiel es Dios](./assets/logo.jpeg)
 
-## 🚀 Características
+¡Bienvenido al catálogo oficial de **Fiel es Dios**! Calidad, variedad y bendición para tu hogar. 💎🚀
 
-- **Carrito Inteligegit remote remove originnte:** Suma, resta y elimina productos en tiempo real.
-- **Modo Vendedor:** El vendedor recibe un link único que reconstruye el carrito del cliente para ver el pedido.
-- **Categorías y Buscador:** Filtros rápidos para una mejor experiencia.
-- **Efecto de Escritura:** Bienvenida dinámica con mensajes de fe.
+## ✨ Características Principales
 
-## 🛠️ Tecnologías
-
-- **HTML5/CSS3:** Estructura y diseño "Dark Mode".
-- **JavaScript (Vanilla):** Lógica del carrito, manejo de URLs (Base64) e inyección de DOM.
-
-## 📦 Instalación
-
-1. Clona el repositorio.
-2. Asegúrate de tener las imágenes en la carpeta `/img`.
-3. Abre `index.html` en tu navegador o actívalo en GitHub Pages.
+- **🛒 Carrito de Compras Dinámico:** Selección de productos con cálculo de totales.
+- **📱 Pedidos por WhatsApp:** Finaliza tu compra con un mensaje automático.
+- **🔍 Filtros por Categoría:** Ropa, Calzado, Cuidado del Cuerpo y más.
+- **🖼️ Detalle de Producto:** Información clara y fotos reales de cada artículo.
 
 ---
 
-_Desarrollado con 💎 por ArticDash-2_
+## 🛠️ Herramientas de Mantenimiento (`/tools`)
+
+- **Admin Tool:** Agrega productos fácilmente.
+- **JSON Fixer:** Mantiene la base de datos sin errores.
+
+---
+
+## 💎 Créditos
+
+Desarrollado por **ArticDash-2** 🚀  
+_"Todo el tiempo fiel es Dios"_
